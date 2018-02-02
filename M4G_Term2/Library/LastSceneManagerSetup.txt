@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MeshVoxelizer/House.unity
+- path: Assets/Flipping/Flipping Cube - Changing HJ.unity
   isLoaded: 1
   isActive: 1
