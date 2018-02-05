@@ -43,50 +43,50 @@ public class HJoint : MonoBehaviour
         {
             tempHinge.anchor = new Vector3(0.5f, -0.5f, 0);
             tempHinge.axis = new Vector3(0, 0, 90);
-        }
-
-        //For z direction
-        if (Input.GetKey(KeyCode.Alpha5))
-        {
-            tempHinge.anchor = new Vector3(0, 0.5f, 0.5f);
-            tempHinge.axis = new Vector3(90, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.Alpha6))
-        {
-            tempHinge.anchor = new Vector3(0, 0.5f, -0.5f);
-            tempHinge.axis = new Vector3(90, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.Alpha7))
-        {
-            tempHinge.anchor = new Vector3(0, -0.5f, -0.5f);
-            tempHinge.axis = new Vector3(90, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.Alpha8))
-        {
-            tempHinge.anchor = new Vector3(0, -0.5f, 0.5f);
-            tempHinge.axis = new Vector3(90, 0, 0);
-        }
+        }       
 
         //For y direction
-        if (Input.GetKey(KeyCode.Alpha9))
+        if (Input.GetKey(KeyCode.Alpha5))
         {
             tempHinge.anchor = new Vector3(0.5f, 0, 0.5f);
             tempHinge.axis = new Vector3(0, 90, 0);
         }
-        if (Input.GetKey(KeyCode.Y))
+        if (Input.GetKey(KeyCode.Alpha6))
         {
             tempHinge.anchor = new Vector3(-0.5f, 0, 0.5f);
             tempHinge.axis = new Vector3(0, 90, 0);
         }
-        if (Input.GetKey(KeyCode.U))
+        if (Input.GetKey(KeyCode.Alpha7))
         {
             tempHinge.anchor = new Vector3(0.5f, 0, -0.5f);
             tempHinge.axis = new Vector3(0, 90, 0);
         }
-        if (Input.GetKey(KeyCode.I))
+        if (Input.GetKey(KeyCode.Alpha8))
         {
             tempHinge.anchor = new Vector3(-0.5f, 0, -0.5f);
             tempHinge.axis = new Vector3(0, 90, 0);
         }
+
+        ////For z direction
+        //if (Input.GetKey(KeyCode.Alpha5))
+        //{
+        //    tempHinge.anchor = new Vector3(0, 0.5f, 0.5f);
+        //    tempHinge.axis = new Vector3(90, 0, 0);
+        //}
+        //if (Input.GetKey(KeyCode.Alpha6))
+        //{
+        //    tempHinge.anchor = new Vector3(0, 0.5f, -0.5f);
+        //    tempHinge.axis = new Vector3(90, 0, 0);
+        //}
+        //if (Input.GetKey(KeyCode.Alpha7))
+        //{
+        //    tempHinge.anchor = new Vector3(0, -0.5f, -0.5f);
+        //    tempHinge.axis = new Vector3(90, 0, 0);
+        //}
+        //if (Input.GetKey(KeyCode.Alpha8))
+        //{
+        //    tempHinge.anchor = new Vector3(0, -0.5f, 0.5f);
+        //    tempHinge.axis = new Vector3(90, 0, 0);
+        //}
     }
 }

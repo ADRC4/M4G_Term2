@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Flipping/Flipping Cube - Changing HJ.unity
+- path: Assets/Flipping/Flipping Cube - Changing HJ - Carry.unity
   isLoaded: 1
   isActive: 1
