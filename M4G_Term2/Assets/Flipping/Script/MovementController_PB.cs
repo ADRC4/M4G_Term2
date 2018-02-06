@@ -37,7 +37,7 @@ public class MovementController_PB : MonoBehaviour
     }
 
     bool isTumbling = false;
-    int count = 0;
+    //int count = 0;
 
     //private void clickCount(object sender, System.EventArgs e)
     //{
