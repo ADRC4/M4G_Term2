@@ -6,8 +6,8 @@ public class Rotate_Auto : MonoBehaviour
 {
     public float amount = 500f;
     public Rigidbody rb;
-    public GameObject tile;
-    private Rigidbody tile_move;
+    //public GameObject tile;
+    //private Rigidbody tile_move;
     //public float massA;
     //public float massB;
     //private Component ScriptRotate_Auto_Swip;
@@ -15,7 +15,7 @@ public class Rotate_Auto : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        tile_move = tile.GetComponent<Rigidbody>();
+        //tile_move = tile.GetComponent<Rigidbody>();
         //tile = GameObject.FindGameObjectWithTag("Tile");
         //rb.mass = massA;
         //tile_move.mass = massB;
