@@ -5,6 +5,7 @@ using UnityEngine;
 public class RobotAutoMovement : MonoBehaviour
 {
     private HingeJoint tempHinge;
+    private JointLimits Limits;
     bool hasJoint;
     Collision collision;
     Rigidbody robotRB;
@@ -41,6 +42,13 @@ public class RobotAutoMovement : MonoBehaviour
                 motor.freeSpin = false;
                 tempHinge.motor = motor;
                 tempHinge.useMotor = true;
+
+                JointLimits limits = tempHinge.limits;
+                limits.min = 0;
+                limits.max = 90;
+                limits.bounciness = 0;
+                limits.bounceMinVelocity = 0;
+                tempHinge.limits = limits;
 
                 //var limits = tempHinge.limits;
                 //limits.min = 0;

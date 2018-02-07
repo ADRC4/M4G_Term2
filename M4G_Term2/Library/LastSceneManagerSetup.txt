@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Flipping/Flipping Cube - Changing HJ - Wall.unity
+- path: Assets/Flipping/Scene/Flipping Cube - Picking Tile Detail Box.unity
   isLoaded: 1
   isActive: 1
