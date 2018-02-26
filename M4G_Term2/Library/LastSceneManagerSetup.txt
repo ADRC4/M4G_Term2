@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Flipping/Scene/Flipping Cube - Picking Tile Detail Box.unity
+- path: Assets/Flipping/Scene/Flipping Cube - Picking Wall Detail Box.unity
   isLoaded: 1
   isActive: 1
